@@ -120,3 +120,46 @@ img {
     background-color: #F2F2CD;
   }
 }
+
+@media screen and (min-width:767px) and (max-width:1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .row {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #lezioni,
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #F2F2CD;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    width: calc(100% / 2 - 20px);
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+
+  #steps .row>.left {
+    margin-right: 20px;
+  }
+
+  #steps .row>.right {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  img {
+    height: 150px;
+  }
+}
+
